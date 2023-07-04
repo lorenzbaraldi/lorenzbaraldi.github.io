@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Research Item Styles */
+  .research-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .research-item h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .research-item p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Research Interests Styles */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    padding: 10px 0;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* Fancy Styles */
+  .research-item {
+    background-color: #f5f5f5;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .research-item:hover {
+    background-color: #e9e9e9;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  header {
+    padding: 40px 0;
+  }
+  
+  header h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  ul li {
+    font-size: 18px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  
+    header h1 {
+      font-size: 36px;
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    ul li {
+      font-size: 16px;
+    }
+  }
+  
